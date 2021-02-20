@@ -811,7 +811,15 @@ h4 {
   }
   /*Operations small*/
   .operations {
-    width: 70%;
+    width: 90%;
+  }
+  .operations__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
   }
   .operations__tab-container {
     display: none;
@@ -829,12 +837,12 @@ h4 {
     row-gap: 1rem;
   }
   .operations__header {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
 
   .operations__content {
     text-align: start;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .operations__content p {
     grid-column: 1;
@@ -864,20 +872,20 @@ h4 {
     font-size: 1.5rem;
   }
   .testimonial {
-    width: 50%;
+    width: 60%;
     position: relative;
   }
   .testimonial::before {
     display: none;
   }
   .testimonial__header {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
     margin-top: -10rem;
     margin-bottom: 1.5rem;
   }
   .testimonial__text {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 2rem;
     color: #666;
   }
@@ -906,7 +914,7 @@ h4 {
   .testimonial__location {
     font-size: 0.7rem;
   }
-  /*Sign-up & Footer small*/
+  /*Sign-up &footer small*/
   .section--sign-up {
     padding: 10rem 1rem;
   }
